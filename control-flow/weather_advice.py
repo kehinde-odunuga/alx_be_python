@@ -1,7 +1,7 @@
 # Create a python program that ask users about the current weather conditions
 # And provide clothing recommendations based on the input.
 
-weather = input("What's the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
